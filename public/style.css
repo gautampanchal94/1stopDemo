@@ -1,0 +1,24 @@
+html{
+    width: 1080px;
+    margin: 20px auto;
+}
+h1{
+    font-size: 4rem;
+}
+/* header section */
+.navbar-nav{
+    margin-left: auto;
+}
+/* main section */
+.main-section{
+    margin: 10px auto;
+    height: 400px;
+}
+.container{
+    padding: 40px 20px;
+}
+/* book section */
+.book-section{
+    margin: 10px auto;
+    height:400px;
+}
