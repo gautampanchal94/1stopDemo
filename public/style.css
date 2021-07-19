@@ -1,3 +1,11 @@
+/* CSS HEX */ :root{
+--rosso-corsa: #d00000ff;
+--selective-yellow: #ffba08ff;
+--green-blue-crayola: #3f88c5ff;
+--prussian-blue: #032b43ff;
+--pine-green: #136f63ff;
+}
+
 html{
     width: 1080px;
     margin: 20px auto;
@@ -9,15 +17,43 @@ h1{
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 /* header section */
-.navbar-nav{
+header .navbar-nav{
     margin-left: auto;
+}
+a.navbar-brand{
+    font-family: 'Montserrat','Courier New', Courier, monospace;
+    font-weight: 700;
+    color: var(--prussian-blue);
+}
+a.nav-link{
+    font-family: 'Montserrat','Courier New',san-serif;
+    font-weight: 400;
+    color: var(--pine-green);
+}
+a.nav-link:hover{
+    font-weight: 700;
 }
 /* main section */
 .main-section{
     margin: 10px auto;
+    font-family: 'Open Sans', sans-serif;
 }
 .main-section .container{
     padding: 40px 20px;
+}
+.main-section .container h1{
+    font-family: 'Montserrat',serif;
+    font-weight: 600;
+    color: var(--prussian-blue);
+}
+.main-section .main-tag{
+    font-family: 'Sacramento',cursive;
+    font-size: 1.5rem;
+    color: var(--rosso-corsa);
+}
+.main-section .mid-text p{
+    font-family: 'Open Sans',sans-serif;
+    color: var(--green-blue-crayola);
 }
 /* book section */
 .book-section{
@@ -26,7 +62,9 @@ h1{
 .book-section .container{
     padding-bottom: 20px;
 }
-
+.book-section .container h3{
+    font-family: 'Montserrat', serif;
+}
 /* upcoming book section */
 .up-section{
     margin: 10px auto;
@@ -38,7 +76,16 @@ h1{
     background: rgb(255,94,98);
     background: linear-gradient(90deg, rgba(255,94,98,1) 0%, rgba(255,153,102,1) 100%);
 }
+.up-section .text-title{
+    font-family: 'Montserrat',serif;
+}
+.up-section .text-body{
+    font-family: 'Open Sans',sans-serif;
+}
 /* footer section */
 .footer-section{
     margin:10px auto;
+}
+.footer-section span{
+    font-family: 'Open Sans',sans-serif;
 }
